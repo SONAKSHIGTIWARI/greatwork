@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Interactive Recipe Finder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <h1>Interactive Recipe Finder</h1>
+    <p>Find recipes based on the ingredients you have!</p>
+</header>
+
+<main>
+    <section id="searchSection">
+        <input type="text" id="ingredientInput" placeholder="Enter ingredients (comma separated)" />
+        <button id="searchBtn">Search Recipes</button>
+    </section>
+
+    <section id="recipeResults" class="hidden">
+        <h2>Recipes</h2>
+        <div id="recipeList"></div>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2025 Recipe Finder</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
